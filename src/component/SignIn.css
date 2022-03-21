@@ -27,12 +27,38 @@ nav p{
 /*Page content*/
 .content{
     
-    margin: 0 3rem;
+    margin: 0 5rem;
     align-items: flex-start;
 
 }
 
 /*Page content-left*/
+
+.content_left{
+    width: 37em;
+    margin-top: 6rem;
+    border: 2px solid;
+    text-align: left;
+}
+
+.content_left h2{
+    font-weight: 600;
+    font-size: 34px;
+    line-height: 51px;
+}
+
+.content_left h3{
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.content_left p{
+    font-weight: 300;
+    font-size: 13px;
+    line-height: 20px;
+}
+
 /*Page content-right*/
 .blue{
     color:  #0089ED;
@@ -47,11 +73,13 @@ nav p{
 
 .content_right{
     text-align: left;
-    border-radius: 8px;
-    border: 2px solid black;
-    width: 34rem;
-    margin-right: 3rem;
-    padding: 3rem 1.5rem;
+    border-radius: 40px;
+    width: 30rem;
+    padding: 3rem 3.5rem;
+    box-shadow: 0px 5px 20px 0px #dbd3d3;}
+
+.marg{
+    margin-right: 10vh;
 }
 
 .top_row_1 h3{
@@ -80,4 +108,78 @@ nav p{
 .top_row_2 a{
     color:  #0089ED;
 
+}
+
+
+.second_row{
+    margin-top: 2rem;
+}
+
+.social_icons div{
+    border-radius: 8px;
+}
+
+.google{
+    background-color: #E9F1FF;
+    padding: 1rem;
+    display: inline-block;
+    margin-right: 1rem;
+}
+
+.google h3{
+    color: #4285F4;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    margin-left: 1rem;
+}
+
+.facebook{
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #F6F6F6;
+
+}
+.apple{
+    display: inline-block;
+    padding: 1rem;
+    margin: 0.5rem;
+    background-color: #F6F6F6;
+}
+
+form h4{
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+    margin: 1rem;
+}
+
+.form {
+    margin: 6vh 0;
+}
+
+form div, form h4{
+    width: 30rem;
+}
+
+.forgot_pass{
+    text-align: right;
+    font-weight: 400;
+    font-size: .8rem;
+    line-height: 1rem;
+    color: #4285F4;
+}
+
+.signin_button{
+    width: auto;
+    background-color: #4285F4;
+    color: #ffffff;
+    text-align: center;
+    padding: 1.3rem;
+    border-radius: 1rem;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
 }
